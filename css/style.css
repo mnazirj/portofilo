@@ -70,13 +70,13 @@
 .floating-card>#c1 {
     position: relative;
     left: 50%;
-    transform: translate(75%, 150%);
+    transform: translate(75%, 220%);
     bottom: 0;
 }
 
 .floating-card>#c2 {
     position: relative;
-    left: 50%;
+    left: 30%;
     transform: translate(230%, 160%);
     bottom: 0;
 }
@@ -239,14 +239,14 @@
     .exp-card {
         position: relative;
         left: 50%;
-        transform: translate(75%, -170%);
+        transform: translate(50%, -170%);
         bottom: 0;
     }
 
     .floating-card>#c1 {
         position: relative;
         left: 50%;
-        transform: translate(-30%, 140%);
+        transform: translate(-30%, 170%);
         bottom: 0;
     }
 
