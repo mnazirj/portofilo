@@ -46,6 +46,10 @@
 
 }
 
+.hero-img>img {
+    width: 420px !important;
+}
+
 .hero-img::before {
     content: "";
     position: absolute;
@@ -210,6 +214,9 @@
     color: var(--bold) !important;
 }
 
+.divider {
+    margin-bottom: 8rem;
+}
 
 @media only screen and (max-width: 600px) {
     .timeline::before {
@@ -303,7 +310,7 @@
     .floating-card>#c2 {
         position: relative;
         left: 50%;
-        transform: translate(100%, 180%);
+        transform: translate(100%, 150%);
         bottom: 0;
     }
 
@@ -324,11 +331,13 @@
     .floating-card>#c2 {
         position: relative;
         left: 50%;
-        transform: translate(100%, 180%);
+        transform: translate(100%, 140%);
         bottom: 0;
     }
 
-
+    .divider {
+        margin-bottom: 12rem;
+    }
 
 
 }
